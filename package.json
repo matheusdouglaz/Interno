@@ -4,10 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "npx tailwindcss -i ./css/input.css -o ./dist/output.css",
-    "watch": "npx tailwindcss -i ./css/input.css -o ./dist/output.css --watch",
-    "version": "npx tailwindcss --version"
-  },
+  "build": "npm run tailwindcss -i ./css/input.css -o ./dist/output.css",
+  "watch": "npm run tailwindcss -i ./css/input.css -o ./dist/output.css --watch",
+  "version": "npm run tailwindcss --version"
+}
+,
   "keywords": [],
   "author": "",
   "license": "ISC",
