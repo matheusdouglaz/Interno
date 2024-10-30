@@ -4,7 +4,7 @@
   "description": "",
   "main": "tailwind.config.js",
   "scripts": {
-    "build": "npx tailwindcss -i ./css/input.css -o ./dist/output.css",
+    "build": "npm install --production=false && npx tailwindcss -i ./css/input.css -o ./dist/output.css",
     "watch": "npx tailwindcss -i ./css/input.css -o ./dist/output.css --watch",
     "version": "npx tailwindcss --version"
   },
