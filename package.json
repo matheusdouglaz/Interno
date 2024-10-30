@@ -8,11 +8,10 @@
     "watch": "tailwindcss -i ./css/input.css -o ./dist/output.css --watch",
     "version": "npx tailwindcss --version"
   },
-  
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "tailwindcss": "^3.4.10"
+    "tailwindcss": "^3.4.14"
   }
 }
